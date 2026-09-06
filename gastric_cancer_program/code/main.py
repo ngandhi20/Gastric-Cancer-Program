@@ -1,31 +1,6 @@
 import pandas as pd
 from funcs import preprocessing_tasks, option1, option2
 
-""""
-preprocessing tasks to do:
-    • Handling missing values (removal, imputation, etc.)
-    • Data cleaning and transformation
-    • Feature creation
-    • Data type conversion
-    • Filtering and grouping data
-
-Perform basic exploratory analysis, such as:
-    • Summary statistics (mean, median, std, etc.)
-    • Group-wise analysis
-    • Correlation analysis (if applicable)
-
-Create clear and meaningful visualizations, such as:
-    • Histograms
-    • Line plots
-    • Bar charts
-    • Scatter plots
-
-All figures must:
-    • Have titles
-    • Have labeled axes
-    • Be referenced in the report
-"""
-
 gastric_data = pd.read_csv("gastric_cancer_program/data/gastric_cancer_detection_dataset.csv",
                            keep_default_na=False,
                            na_values=['', ' '])    # Making sure pandas doesn't change 'None' values to NaN              
